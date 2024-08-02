@@ -3,19 +3,23 @@
 body{
 background:#222;
 margin: 40px 50px;
-color:#4a8df8;
+color:#7fa1d7;
 font-family: 'Raleway', cursive;
 font-weight:100;
 }
+body, html{
+height: 100%;
+margin: 0;
+}
 h1{
-color:#4a8df8;
+color:#7fa1d7;
 font-family: 'Raleway', cursive;
 font-weight:100;
 font-stretch:normal;
 font-size:3em;
 }
 a{
-color:#4a8df8;
+color:#7fa1d7;
 font-family: 'Raleway', cursive;
 }
 .slider{
@@ -26,10 +30,19 @@ margin-top:-30px;
 }
 .line{
 position:absolute;
-background:#4a8df8;
+background:#7fa1d7;
 width:400px;
 height:2px;
 }
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+/* .center-content{
+width: 50%;
+} */
 .break{
 position:absolute;
 background:#222;
