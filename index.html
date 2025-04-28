@@ -9,9 +9,14 @@
     gtag('js', new Date());
 
     gtag('config', 'G-VE56J9FVV9');
+
+    // Delay the redirect to allow Google Analytics to track the page
+    setTimeout(function() {
+      window.location.href = 'http://192.168.25.6:8096';  // destination URL
+    }, 150);  // 150 milliseconds delay
   </script>
   <link rel="stylesheet" href="styles.css">
-  <meta http-equiv="refresh" content="0; URL=http://192.168.25.6:8096">
+  <!-- <meta http-equiv="refresh" content="0; URL=http://192.168.25.6:8096"> -->
   <link rel="canonical" href="http://192.168.25.6:8096">
 </head>
 <body>
